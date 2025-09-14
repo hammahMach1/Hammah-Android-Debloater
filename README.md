@@ -1,4 +1,4 @@
-# 🚀 Hammah's Android Debloater
+# Hammah's Android Debloater
 
 A powerful, user-friendly GUI tool for removing unwanted Chinese apps and system packages from Android devices via ADB. Originally designed for Vivo X200S with OriginOS 5, but compatible with most Android devices.
 
@@ -8,48 +8,48 @@ A powerful, user-friendly GUI tool for removing unwanted Chinese apps and system
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Downloads](https://img.shields.io/github/downloads/hammahMach1/Hammah-Android-Debloater/total)
 
-> **🎯 Perfect for removing Chinese bloatware from phones purchased from international sellers!**
+> **Perfect for removing Chinese bloatware from phones purchased from international sellers**
 
-## 📋 Table of Contents
-- [✨ Features](#-features)
-- [🖼️ Screenshots](#️-screenshots)
-- [📋 Requirements](#-requirements)
-- [🔧 Installation](#-installation)
-- [⚙️ Setup Instructions](#️-setup-instructions)
-- [🎮 How to Use](#-how-to-use)
-- [🛡️ Safety Features](#️-safety-features)
-- [🔍 Troubleshooting](#-troubleshooting)
-- [🛠️ Development](#️-development)
-- [🤝 Contributing](#-contributing)
-- [⚠️ Disclaimer](#️-disclaimer)
-- [📄 License](#-license)
+## Table of Contents
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Setup Instructions](#setup-instructions)
+- [How to Use](#how-to-use)
+- [Safety Features](#safety-features)
+- [Troubleshooting](#troubleshooting)
+- [Development](#development)
+- [Contributing](#contributing)
+- [Disclaimer](#disclaimer)
+- [License](#license)
 
-## ✨ Features
+## Features
 
-### 🎯 Core Functionality
-- **🔍 Dual Scan Modes**: 
+### Core Functionality
+- **Dual Scan Modes**: 
   - **Chinese Apps Only**: Specifically targets apps with Chinese characters (safer for beginners)
   - **All System Packages**: Lists all installed packages for advanced users
-- **🧠 Smart Detection**: Advanced Chinese character detection using comprehensive Unicode ranges
-- **🚀 Batch Operations**: Select multiple apps for simultaneous removal
-- **🔍 Real-time Search**: Filter packages instantly as you type
+- **Smart Detection**: Advanced Chinese character detection using comprehensive Unicode ranges
+- **Batch Operations**: Select multiple apps for simultaneous removal
+- **Real-time Search**: Filter packages instantly as you type
 
-### 🛡️ Safety & Backup
-- **💾 Backup and Restore**: Automatically create backups before making changes
-- **⚙️ Multiple Removal Methods**: 
-  - 🗑️ **Uninstall**: Completely removes the app (recommended)
-  - ⏸️ **Disable**: Disables the app but keeps it installed
-  - 👁️ **Hide**: Hides the app from launcher (least invasive)
-- **⚠️ Smart Warnings**: Alerts for system-critical operations
-- **📊 Connection Monitoring**: Real-time ADB connection status
+### Safety & Backup
+- **Backup and Restore**: Automatically create backups before making changes
+- **Multiple Removal Methods**: 
+  - **Uninstall**: Completely removes the app (recommended)
+  - **Disable**: Disables the app but keeps it installed
+  - **Hide**: Hides the app from launcher (least invasive)
+- **Smart Warnings**: Alerts for system-critical operations
+- **Connection Monitoring**: Real-time ADB connection status
 
-### 🎨 User Experience
-- **🖥️ Modern GUI**: Clean, intuitive tkinter interface
-- **📈 Progress Tracking**: Visual feedback during operations
-- **📝 Comprehensive Logging**: Detailed operation logs for troubleshooting
-- **🔄 Threading**: Non-blocking operations keep the UI responsive
+### User Experience
+- **Modern GUI**: Clean, intuitive tkinter interface
+- **Progress Tracking**: Visual feedback during operations
+- **Comprehensive Logging**: Detailed operation logs for troubleshooting
+- **Threading**: Non-blocking operations keep the UI responsive
 
-## 🖼️ Screenshots
+## Screenshots
 
 ### Main Interface
 ```
@@ -57,7 +57,7 @@ A powerful, user-friendly GUI tool for removing unwanted Chinese apps and system
 │ ADB Status: ● Connected to SM-G981B                     │
 │ ┌─ Scan Mode ─────────────────────────────────────────┐ │
 │ │ ○ Chinese Apps Only    ○ All System Packages       │ │
-│ │ [🔍 Search] [Scan Devices] [Remove Selected]       │ │
+│ │ [Search] [Scan Devices] [Remove Selected]          │ │
 │ └─────────────────────────────────────────────────────┘ │
 │ ┌─ Detected Apps (23 Chinese apps found) ────────────┐ │
 │ │ ☑ com.android.browser 中文 (Chrome Browser)        │ │
@@ -70,9 +70,9 @@ A powerful, user-friendly GUI tool for removing unwanted Chinese apps and system
 
 *The interface shows detected apps with Chinese labels clearly marked, making it easy to identify bloatware.*
 
-## 📋 Requirements
+## Requirements
 
-### 💻 System Requirements
+### System Requirements
 | Component | Requirement |
 |-----------|-------------|
 | **Operating System** | Windows 10/11 (64-bit recommended) |
@@ -81,7 +81,7 @@ A powerful, user-friendly GUI tool for removing unwanted Chinese apps and system
 | **Storage** | 50MB free space |
 | **USB Port** | USB 2.0 or higher |
 
-### 📱 Android Device Requirements
+### Android Device Requirements
 | Component | Requirement |
 |-----------|-------------|
 | **Android Version** | Android 5.0+ (API level 21+) |
@@ -90,53 +90,54 @@ A powerful, user-friendly GUI tool for removing unwanted Chinese apps and system
 | **Authorization** | Computer must be authorized on device |
 | **Cable** | Quality USB cable (data transfer capable) |
 
-### 🔧 Required Tools
-- **🔧 ADB (Android Debug Bridge)**: Essential for device communication
+### Required Tools
+- **ADB (Android Debug Bridge)**: Essential for device communication
   - Included with Android SDK Platform Tools
   - Must be in system PATH
-- **📦 AAPT (Android Asset Packaging Tool)**: Optional but recommended
+- **AAPT (Android Asset Packaging Tool)**: Optional but recommended
   - Enhances app detection and metadata retrieval
   - Provides app names and descriptions
 
-## 🔧 Installation
+## Installation
 
-### 🚀 Option 1: Download Pre-built Executable (Recommended)
-**⭐ Easiest method - No setup required!**
+### Option 1: Download Pre-built Executable (Recommended)
+**Easiest method - No setup required**
 
-1. **📥 Download**: Get `ChineseDebloater_v2.exe` from the [Releases](../../releases) page
-2. **🏃 Run**: Double-click the executable - no installation needed!
-3. **✅ Done**: The application will launch immediately
+1. **Download**: Get `ChineseDebloater_v2.exe` from the [Releases](../../releases) page
+2. **Run**: Double-click the executable - no installation needed
+3. **Done**: The application will launch immediately
 
 ```bash
 # Quick download with PowerShell (optional)
 Invoke-WebRequest -Uri "https://github.com/hammahMach1/Hammah-Android-Debloater/releases/latest/download/ChineseDebloater_v2.exe" -OutFile "ChineseDebloater_v2.exe"
 ```
 
-### 🐍 Option 2: Run from Source
+### Option 2: Run from Source
 **For developers or users who prefer Python**
-1. **📋 Clone this repository**:
+
+1. **Clone this repository**:
    ```bash
    git clone https://github.com/hammahMach1/Hammah-Android-Debloater.git
    cd Hammah-Android-Debloater
    ```
 
-2. **🐍 Install Python dependencies**:
+2. **Install Python dependencies**:
    ```bash
    # Good news - no additional dependencies required! 
    # Uses only Python standard libraries (tkinter, subprocess, etc.)
    python --version  # Verify Python 3.7+ is installed
    ```
 
-3. **🏃 Run the application**:
+3. **Run the application**:
    ```bash
    python ChineseDebloater.py
    ```
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 🛠️ Step 1: Install Android SDK Platform Tools
+### Step 1: Install Android SDK Platform Tools
 
-**📥 Download**: Get the tools from [Android Developer Website](https://developer.android.com/studio/releases/platform-tools)
+**Download**: Get the tools from [Android Developer Website](https://developer.android.com/studio/releases/platform-tools)
 
 #### Windows Installation:
 ```powershell
@@ -152,19 +153,19 @@ winget install Google.PlatformTools
 choco install adb
 ```
 
-#### 🔧 Add to PATH:
-1. **🗂️ Extract** platform-tools to `C:\platform-tools\`
-2. **⚙️ Open** System Properties → Advanced → Environment Variables
-3. **➕ Add** `C:\platform-tools` to your PATH
-4. **✅ Verify** installation:
+#### Add to PATH:
+1. **Extract** platform-tools to `C:\platform-tools\`
+2. **Open** System Properties → Advanced → Environment Variables
+3. **Add** `C:\platform-tools` to your PATH
+4. **Verify** installation:
    ```cmd
    adb version
    # Should show: Android Debug Bridge version X.X.X
    ```
 
-### 📱 Step 2: Enable USB Debugging on Your Device
+### Step 2: Enable USB Debugging on Your Device
 
-#### 🎯 For Vivo X200S (OriginOS 5) - Tested Configuration:
+#### For Vivo X200S (OriginOS 5) - Tested Configuration:
 ```
 Settings → About Phone → Version (tap 7 times)
    ↓
@@ -175,7 +176,7 @@ Settings → System → Developer Options
 ✅ Enable "Install via USB" (recommended)
 ```
 
-#### 📱 For Other Android Devices:
+#### For Other Android Devices:
 | Device Brand | Path to Developer Options |
 |--------------|---------------------------|
 | **Samsung** | Settings → About Phone → Software Information → Build Number (tap 7x) |
@@ -185,20 +186,20 @@ Settings → System → Developer Options
 | **Generic** | Settings → About Phone → Build Number (tap 7x) |
 
 After enabling Developer Options:
-1. **🔧 Go to** Settings → Developer Options (or System → Developer Options)
-2. **✅ Enable** "USB Debugging"
-3. **✅ Enable** "Install via USB" (if available)
-4. **✅ Enable** "USB Debugging (Security Settings)" (if available)
+1. **Go to** Settings → Developer Options (or System → Developer Options)
+2. **Enable** "USB Debugging"
+3. **Enable** "Install via USB" (if available)
+4. **Enable** "USB Debugging (Security Settings)" (if available)
 
-### 🔌 Step 3: Connect and Test Your Device
+### Step 3: Connect and Test Your Device
 
-#### 🔗 Connection Process:
-1. **🔌 Connect** your device via USB cable
-2. **📁 Select** "File Transfer" or "MTP" mode when prompted on device
-3. **✅ Authorize** computer when USB debugging dialog appears
-4. **☑️ Check** "Always allow from this computer" (recommended)
+#### Connection Process:
+1. **Connect** your device via USB cable
+2. **Select** "File Transfer" or "MTP" mode when prompted on device
+3. **Authorize** computer when USB debugging dialog appears
+4. **Check** "Always allow from this computer" (recommended)
 
-#### 🧪 Test Connection:
+#### Test Connection:
 ```cmd
 # Check if device is detected
 adb devices
@@ -211,7 +212,7 @@ adb devices
 # If you see "no devices", troubleshoot connection
 ```
 
-#### 🔧 Quick Connection Test:
+#### Quick Connection Test:
 ```cmd
 # Get device information
 adb shell getprop ro.product.model
@@ -220,33 +221,33 @@ adb shell getprop ro.build.version.release
 # These should return your device model and Android version
 ```
 
-## 🎮 How to Use
+## How to Use
 
-### 🚀 Quick Start Guide
+### Quick Start Guide
 
-#### 🎯 For Beginners (Recommended):
-1. **🏁 Launch**: Run `ChineseDebloater_v2.exe`
-2. **🔌 Connect**: Ensure your Android device is connected via USB
-3. **🎛️ Mode**: Select "**Chinese Apps Only**" (safer option)
-4. **🔍 Scan**: Click "**Scan**" button to detect Chinese apps
-5. **✅ Select**: Check boxes next to apps you want to remove
-6. **🗑️ Remove**: Click "**Remove Selected**" → Choose "**Uninstall**"
-7. **✨ Done**: Apps are removed safely!
+#### For Beginners (Recommended):
+1. **Launch**: Run `ChineseDebloater_v2.exe`
+2. **Connect**: Ensure your Android device is connected via USB
+3. **Mode**: Select "**Chinese Apps Only**" (safer option)
+4. **Scan**: Click "**Scan**" button to detect Chinese apps
+5. **Select**: Check boxes next to apps you want to remove
+6. **Remove**: Click "**Remove Selected**" → Choose "**Uninstall**"
+7. **Done**: Apps are removed safely
 
-#### 🔧 For Advanced Users:
-1. **🏁 Launch**: Run the application
-2. **🔌 Connect**: Verify device connection (green status indicator)
-3. **🎛️ Mode**: Select "**All System Packages**" for full control
-4. **🔍 Scan**: Click "**Scan**" to list all packages
-5. **🔎 Filter**: Use search box to find specific packages
-6. **⚠️ Research**: Look up unfamiliar packages before removing
-7. **✅ Select**: Carefully choose packages to remove
-8. **🛡️ Backup**: Create backup before major changes
-9. **🗑️ Remove**: Choose appropriate removal method
+#### For Advanced Users:
+1. **Launch**: Run the application
+2. **Connect**: Verify device connection (green status indicator)
+3. **Mode**: Select "**All System Packages**" for full control
+4. **Scan**: Click "**Scan**" to list all packages
+5. **Filter**: Use search box to find specific packages
+6. **Research**: Look up unfamiliar packages before removing
+7. **Select**: Carefully choose packages to remove
+8. **Backup**: Create backup before major changes
+9. **Remove**: Choose appropriate removal method
 
-### 📊 Understanding Scan Modes
+### Understanding Scan Modes
 
-#### 🎯 Chinese Apps Only Mode
+#### Chinese Apps Only Mode
 ```
 ✅ SAFER FOR BEGINNERS
 🎯 Targets apps with Chinese characters
@@ -260,7 +261,7 @@ adb shell getprop ro.build.version.release
 - `com.baidu.input` 中文 (Baidu Input)
 - `com.sina.weibo` 中文 (Weibo)
 
-#### 🔧 All System Packages Mode
+#### All System Packages Mode
 ```
 ⚠️ FOR ADVANCED USERS ONLY
 📋 Lists ALL installed packages
@@ -269,76 +270,76 @@ adb shell getprop ro.build.version.release
 ⚡ Can break device if misused
 ```
 
-**⚠️ Warning**: This mode shows system-critical apps that should NOT be removed unless you know exactly what you're doing.
+**Warning**: This mode shows system-critical apps that should NOT be removed unless you know exactly what you're doing.
 
-### 🗑️ Removal Methods Explained
+### Removal Methods Explained
 
 | Method | Effect | Reversible | Use Case |
 |--------|--------|------------|----------|
-| **🗑️ Uninstall** | Completely removes app | ⚠️ Partially* | Unwanted apps, bloatware |
-| **⏸️ Disable** | App becomes inactive | ✅ Yes | System apps you can't uninstall |
-| **👁️ Hide** | Hidden from launcher | ✅ Yes | Apps you rarely use |
+| **Uninstall** | Completely removes app | Partially* | Unwanted apps, bloatware |
+| **Disable** | App becomes inactive | Yes | System apps you can't uninstall |
+| **Hide** | Hidden from launcher | Yes | Apps you rarely use |
 
-*_Can be restored from backup or APK reinstallation_
+*Can be restored from backup or APK reinstallation
 
-### 🔍 Search and Filter Features
+### Search and Filter Features
 
-#### 🔎 Real-time Search:
+#### Real-time Search:
 ```
-Search Box: [tencent________] 🔍
+Search Box: [tencent________]
 Results: 
   ✅ com.tencent.mm (WeChat)
   ✅ com.tencent.android.qqdownloader
   ✅ com.tencent.mobileqq
 ```
 
-#### 🏷️ Filter by Categories:
+#### Filter by Categories:
 - **Chinese**: Search "中文" to show only Chinese apps
 - **System**: Search "android.system" for system components  
 - **Google**: Search "google" for Google services
 - **Manufacturer**: Search "vivo", "samsung", etc.
 
-### 📱 Step-by-Step: First Time Setup
+### Step-by-Step: First Time Setup
 
-#### 🔧 Complete Setup Process:
+#### Complete Setup Process:
 ```
-1. 📥 Download → ChineseDebloater_v2.exe
-2. 🔧 Install → Android Platform Tools
-3. ⚙️ Setup → PATH environment variable
-4. 📱 Enable → USB Debugging on phone
-5. 🔌 Connect → Phone to computer via USB
-6. ✅ Test → Run 'adb devices' in command prompt
-7. 🏁 Launch → ChineseDebloater_v2.exe
-8. 🔍 Scan → Start with "Chinese Apps Only"
-9. ✅ Select → Choose apps to remove
-10. 🗑️ Remove → Click "Remove Selected"
+1. Download → ChineseDebloater_v2.exe
+2. Install → Android Platform Tools
+3. Setup → PATH environment variable
+4. Enable → USB Debugging on phone
+5. Connect → Phone to computer via USB
+6. Test → Run 'adb devices' in command prompt
+7. Launch → ChineseDebloater_v2.exe
+8. Scan → Start with "Chinese Apps Only"
+9. Select → Choose apps to remove
+10. Remove → Click "Remove Selected"
 ```
 
-### 💡 Pro Tips
+### Pro Tips
 
-#### 🛡️ Safety First:
-- **🔰 Start Small**: Remove 2-3 apps at a time initially
-- **💾 Backup**: Always create backups before major operations
-- **🧪 Test**: Check device functionality after each removal
-- **📖 Research**: Look up unfamiliar package names online
+#### Safety First:
+- **Start Small**: Remove 2-3 apps at a time initially
+- **Backup**: Always create backups before major operations
+- **Test**: Check device functionality after each removal
+- **Research**: Look up unfamiliar package names online
 
-#### ⚡ Efficiency Tips:
-- **🔎 Use Search**: Filter results instead of scrolling through hundreds of apps
-- **📋 Batch Select**: Hold Ctrl and click to select multiple apps
-- **🔄 Refresh**: Click "Refresh" if device disconnects
-- **📝 Log Files**: Check logs for detailed operation history
+#### Efficiency Tips:
+- **Use Search**: Filter results instead of scrolling through hundreds of apps
+- **Batch Select**: Hold Ctrl and click to select multiple apps
+- **Refresh**: Click "Refresh" if device disconnects
+- **Log Files**: Check logs for detailed operation history
 
-## 🛡️ Safety Features
+## Safety Features
 
-### 💾 Backup and Restore System
+### Backup and Restore System
 
-#### 🔄 Automatic Backups:
-- **📅 Time-stamped**: Each backup includes date and time
-- **📋 Package Lists**: Saves list of removed apps with metadata
-- **💾 JSON Format**: Human-readable backup files
-- **📂 Location**: Saved in application directory
+#### Automatic Backups:
+- **Time-stamped**: Each backup includes date and time
+- **Package Lists**: Saves list of removed apps with metadata
+- **JSON Format**: Human-readable backup files
+- **Location**: Saved in application directory
 
-#### 📂 Backup File Structure:
+#### Backup File Structure:
 ```json
 {
   "timestamp": "2025-08-10_14:30:25",
@@ -355,22 +356,22 @@ Results:
 }
 ```
 
-#### 🔄 Restore Process:
-1. **📋 Select Backup**: Choose from available backup files
-2. **📱 Connect Device**: Ensure same device is connected
-3. **🔄 Restore**: Apps are automatically reinstalled
-4. **✅ Verify**: Check that apps are restored successfully
+#### Restore Process:
+1. **Select Backup**: Choose from available backup files
+2. **Connect Device**: Ensure same device is connected
+3. **Restore**: Apps are automatically reinstalled
+4. **Verify**: Check that apps are restored successfully
 
-### ⚠️ Smart Warning System
+### Smart Warning System
 
-#### 🚨 Critical System App Warnings:
+#### Critical System App Warnings:
 ```
 ⚠️  WARNING: System Critical App Detected
-📱 Package: com.android.systemui
-📋 Name: System UI
-⚠️  Removing this app may cause your device to malfunction!
+Package: com.android.systemui
+Name: System UI
+Removing this app may cause your device to malfunction!
 
-🛡️ Recommendations:
+Recommendations:
 ✅ Disable instead of uninstall
 ✅ Create backup before proceeding
 ✅ Research this package online first
@@ -378,99 +379,99 @@ Results:
 Continue? [Yes] [No] [Learn More]
 ```
 
-#### 🔍 App Risk Assessment:
+#### App Risk Assessment:
 | Risk Level | Description | Apps Included |
 |------------|-------------|---------------|
-| 🟢 **Safe** | Bloatware, games, social apps | WeChat, TikTok, games |
-| 🟡 **Caution** | Manufacturer apps, some may be useful | Vivo apps, carrier apps |
-| 🟠 **Risky** | System components with alternatives | Default browsers, keyboards |
-| 🔴 **Critical** | Essential system functions | SystemUI, PackageInstaller |
+| **Safe** | Bloatware, games, social apps | WeChat, TikTok, games |
+| **Caution** | Manufacturer apps, some may be useful | Vivo apps, carrier apps |
+| **Risky** | System components with alternatives | Default browsers, keyboards |
+| **Critical** | Essential system functions | SystemUI, PackageInstaller |
 
-### 🔐 Connection Security
+### Connection Security
 
-#### 📊 Real-time Status Monitoring:
+#### Real-time Status Monitoring:
 ```
-🟢 ADB Status: Connected to SM-G981B
-📱 Device: Samsung Galaxy S20
-🔧 Android: 11 (API 30)
-🔋 Battery: 85% (Not charging recommended during debloating)
+ADB Status: Connected to SM-G981B
+Device: Samsung Galaxy S20
+Android: 11 (API 30)
+Battery: 85% (Not charging recommended during debloating)
 ```
 
-#### 🔄 Auto-reconnection:
-- **📡 Detects**: Connection drops automatically
-- **🔄 Reconnects**: Attempts to restore connection
-- **⏸️ Pauses**: Operations during disconnection
-- **📢 Notifies**: User of connection status changes
+#### Auto-reconnection:
+- **Detects**: Connection drops automatically
+- **Reconnects**: Attempts to restore connection
+- **Pauses**: Operations during disconnection
+- **Notifies**: User of connection status changes
 
-### 🧵 Thread Safety
+### Thread Safety
 
-#### ⚡ Non-blocking Operations:
-- **🖥️ UI Responsive**: Interface remains usable during operations
-- **🔄 Background Processing**: Scanning and removal run in separate threads
-- **📊 Progress Updates**: Real-time progress indicators
-- **⏹️ Cancellable**: Operations can be stopped mid-process
+#### Non-blocking Operations:
+- **UI Responsive**: Interface remains usable during operations
+- **Background Processing**: Scanning and removal run in separate threads
+- **Progress Updates**: Real-time progress indicators
+- **Cancellable**: Operations can be stopped mid-process
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
-### 🚨 Common Issues and Solutions
+### Common Issues and Solutions
 
-#### ❌ "ADB not found in PATH"
+#### "ADB not found in PATH"
 ```
 Problem: Application can't find ADB command
 Solutions:
-1. 📥 Install Android SDK Platform Tools
-2. ⚙️ Add platform-tools directory to system PATH
-3. 🔄 Restart application after PATH changes
-4. ✅ Test: Open CMD and run 'adb version'
+1. Install Android SDK Platform Tools
+2. Add platform-tools directory to system PATH
+3. Restart application after PATH changes
+4. Test: Open CMD and run 'adb version'
 ```
 
-#### ❌ "No devices found"
+#### "No devices found"
 ```
 Problem: Device not detected by ADB
 Solutions:
-1. 🔌 Check USB cable (ensure data transfer capable)
-2. 📱 Enable USB Debugging on device
-3. ✅ Authorize computer on device screen
-4. 🔄 Try different USB port
-5. 🔧 Run 'adb kill-server' then 'adb start-server'
-6. 📱 Change USB connection mode to "File Transfer"
+1. Check USB cable (ensure data transfer capable)
+2. Enable USB Debugging on device
+3. Authorize computer on device screen
+4. Try different USB port
+5. Run 'adb kill-server' then 'adb start-server'
+6. Change USB connection mode to "File Transfer"
 ```
 
-#### ❌ "Device unauthorized"
+#### "Device unauthorized"
 ```
 Problem: Computer not authorized for debugging
 Solutions:
-1. 📱 Check device screen for authorization dialog
-2. ✅ Tap "Always allow from this computer"
-3. 🔧 If no dialog: adb kill-server → adb start-server
-4. 🔄 Disconnect and reconnect USB cable
-5. 📱 Toggle USB Debugging off/on in developer options
+1. Check device screen for authorization dialog
+2. Tap "Always allow from this computer"
+3. If no dialog: adb kill-server → adb start-server
+4. Disconnect and reconnect USB cable
+5. Toggle USB Debugging off/on in developer options
 ```
 
-#### ❌ "AAPT not found" warning
+#### "AAPT not found" warning
 ```
 Problem: AAPT tool missing (optional)
 Impact: App names may not display correctly
 Solutions:
-1. ✅ Ignore warning - app will work with fallback method
-2. 📥 Install Android SDK Build Tools for better detection
-3. ⚙️ Add build-tools to PATH for enhanced features
+1. Ignore warning - app will work with fallback method
+2. Install Android SDK Build Tools for better detection
+3. Add build-tools to PATH for enhanced features
 ```
 
-#### ❌ Apps not appearing after scan
+#### Apps not appearing after scan
 ```
 Problem: Expected apps don't show in results
 Solutions:
-1. 🔄 Try switching between scan modes
-2. 🔌 Verify device connection (green status)
-3. 👁️ Check if apps are hidden from ADB listing
-4. 🔍 Use search function to find specific packages
-5. 📱 Some apps may be installed as system updates
+1. Try switching between scan modes
+2. Verify device connection (green status)
+3. Check if apps are hidden from ADB listing
+4. Use search function to find specific packages
+5. Some apps may be installed as system updates
 ```
 
-### 🔧 Advanced Troubleshooting
+### Advanced Troubleshooting
 
-#### 🔍 Debug Mode:
+#### Debug Mode:
 ```powershell
 # Enable verbose ADB logging
 set ADB_TRACE=all
@@ -481,13 +482,13 @@ adb shell getprop ro.debuggable
 adb shell getprop ro.secure
 ```
 
-#### 📝 Log Analysis:
-- **📄 Log File**: `android_debloater.log` in app directory
-- **📊 Contains**: Detailed operation history, error messages, device info
-- **🔍 Search**: Look for ERROR or WARNING entries
-- **📋 Share**: Include relevant log sections when reporting issues
+#### Log Analysis:
+- **Log File**: `android_debloater.log` in app directory
+- **Contains**: Detailed operation history, error messages, device info
+- **Search**: Look for ERROR or WARNING entries
+- **Share**: Include relevant log sections when reporting issues
 
-#### 🛠️ Manual ADB Testing:
+#### Manual ADB Testing:
 ```cmd
 # Test basic ADB functions
 adb devices                                    # List connected devices
@@ -496,21 +497,21 @@ adb shell pm uninstall --user 0 com.example   # Manual uninstall test
 adb shell pm disable-user com.example         # Manual disable test
 ```
 
-### 📞 Getting Help
+### Getting Help
 
-#### 🆘 If you encounter persistent issues:
+#### If you encounter persistent issues:
 
-1. **📝 Check Logs**: Review `android_debloater.log` for error details
-2. **🔌 Verify Setup**: Ensure ADB and device are properly configured
-3. **🔄 Restart**: Try restarting both the app and your device
-4. **📱 Device Settings**: Check USB debugging and developer options
-5. **💬 Community**: Search GitHub issues for similar problems
-6. **🐛 Report Bug**: Create new issue with:
+1. **Check Logs**: Review `android_debloater.log` for error details
+2. **Verify Setup**: Ensure ADB and device are properly configured
+3. **Restart**: Try restarting both the app and your device
+4. **Device Settings**: Check USB debugging and developer options
+5. **Community**: Search GitHub issues for similar problems
+6. **Report Bug**: Create new issue with:
    - Device model and Android version
    - Error message and relevant log entries
    - Steps to reproduce the problem
 
-#### 📋 Issue Report Template:
+#### Issue Report Template:
 ```
 Device: [Your device model]
 Android Version: [Version number]
@@ -529,11 +530,11 @@ Log Excerpt:
 [Relevant lines from android_debloater.log]
 ```
 
-## 🛠️ Development
+## Development
 
-### 🏗️ Building from Source
+### Building from Source
 
-#### 📦 Create Your Own Executable:
+#### Create Your Own Executable:
 ```bash
 # Install build dependencies
 pip install pyinstaller
@@ -545,7 +546,7 @@ pyinstaller --onefile --windowed --name "ChineseDebloater_v2" ChineseDebloater.p
 pyinstaller --onefile --windowed --icon=icon.ico --name "ChineseDebloater_v2" ChineseDebloater.py
 ```
 
-#### 🔧 Build Script (Windows):
+#### Build Script (Windows):
 Use the included `build.bat`:
 ```batch
 @echo off
@@ -555,28 +556,28 @@ echo Build complete! Check dist/ folder.
 pause
 ```
 
-### 📁 Project Structure
+### Project Structure
 ```
 Hammah-Android-Debloater/
-├── 📄 ChineseDebloater.py          # Main application file
-├── 🔨 build.bat                    # Build script for Windows
-├── 📖 README.md                    # This comprehensive guide
-├── 📜 LICENSE                      # MIT License
-├── 📝 CHANGELOG.md                 # Version history
-├── 📋 PROJECT_SUMMARY.md           # Development summary
-├── 🔧 setup_adb.bat               # ADB setup helper
-├── 📦 install_android_tools.bat   # Tools installation helper
-├── 📂 build/                      # Build artifacts
-│   └── 📂 ChineseDebloater_v2/    # PyInstaller build files
-├── 📂 dist/                       # Compiled executables
-│   └── 📄 ChineseDebloater_v2.exe # Ready-to-run executable
-└── 📂 logs/                       # Application logs
-    └── 📄 android_debloater.log   # Runtime logs
+├── ChineseDebloater.py          # Main application file
+├── build.bat                    # Build script for Windows
+├── README.md                    # This comprehensive guide
+├── LICENSE                      # MIT License
+├── CHANGELOG.md                 # Version history
+├── PROJECT_SUMMARY.md           # Development summary
+├── setup_adb.bat               # ADB setup helper
+├── install_android_tools.bat   # Tools installation helper
+├── build/                      # Build artifacts
+│   └── ChineseDebloater_v2/    # PyInstaller build files
+├── dist/                       # Compiled executables
+│   └── ChineseDebloater_v2.exe # Ready-to-run executable
+└── logs/                       # Application logs
+    └── android_debloater.log   # Runtime logs
 ```
 
-### 🧪 Testing
+### Testing
 
-#### 🔍 Manual Testing Checklist:
+#### Manual Testing Checklist:
 ```
 Device Connection:
 ☐ ADB detection works
@@ -604,7 +605,7 @@ Safety Features:
 ☐ System app protection
 ```
 
-#### 🐛 Unit Testing Framework:
+#### Unit Testing Framework:
 ```python
 # Example test structure (not included in current version)
 import unittest
@@ -620,9 +621,9 @@ class TestAndroidDebloater(unittest.TestCase):
         pass
 ```
 
-### 🔧 Development Setup
+### Development Setup
 
-#### 🖥️ Development Environment:
+#### Development Environment:
 ```bash
 # Clone repository
 git clone https://github.com/hammahMach1/Hammah-Android-Debloater.git
@@ -640,60 +641,60 @@ pip install pyinstaller
 python ChineseDebloater.py
 ```
 
-#### 📝 Code Style Guidelines:
-- **🐍 Python**: Follow PEP 8 standards
-- **📖 Documentation**: Comprehensive docstrings
-- **🏷️ Comments**: Clear, concise explanations
-- **🧪 Testing**: Test all major functions
-- **📝 Logging**: Detailed operation logging
+#### Code Style Guidelines:
+- **Python**: Follow PEP 8 standards
+- **Documentation**: Comprehensive docstrings
+- **Comments**: Clear, concise explanations
+- **Testing**: Test all major functions
+- **Logging**: Detailed operation logging
 
-### 🔮 Future Enhancements
+### Future Enhancements
 
-#### 🚀 Planned Features:
-- **🌐 Multi-language Support**: Interface translations
-- **🍎 macOS Support**: Cross-platform compatibility
-- **🐧 Linux Support**: Ubuntu/Debian packages
-- **📊 Advanced Analytics**: Detailed removal statistics
-- **🔄 Auto-updates**: Built-in update mechanism
-- **📱 Wireless ADB**: TCP/IP connection support
+#### Planned Features:
+- **Multi-language Support**: Interface translations
+- **macOS Support**: Cross-platform compatibility
+- **Linux Support**: Ubuntu/Debian packages
+- **Advanced Analytics**: Detailed removal statistics
+- **Auto-updates**: Built-in update mechanism
+- **Wireless ADB**: TCP/IP connection support
 
-#### 🎯 Technical Improvements:
-- **⚡ Performance**: Faster scanning algorithms
-- **🎨 UI/UX**: Modern framework migration (possibly PyQt/tkinter++)
-- **🔌 Plugin System**: Extensible architecture
-- **☁️ Cloud Backup**: Remote backup storage
-- **🤖 AI Detection**: Smart bloatware identification
+#### Technical Improvements:
+- **Performance**: Faster scanning algorithms
+- **UI/UX**: Modern framework migration (possibly PyQt/tkinter++)
+- **Plugin System**: Extensible architecture
+- **Cloud Backup**: Remote backup storage
+- **AI Detection**: Smart bloatware identification
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from the community! Here's how you can help:
 
-### 🎯 Areas for Contribution
+### Areas for Contribution
 
-#### 🐛 Bug Fixes:
-- **🔍 Device Compatibility**: Test with different Android devices
-- **🔧 ADB Issues**: Improve connection reliability
-- **🎨 UI Bugs**: Fix interface glitches and responsiveness
-- **📝 Documentation**: Correct errors and improve clarity
+#### Bug Fixes:
+- **Device Compatibility**: Test with different Android devices
+- **ADB Issues**: Improve connection reliability
+- **UI Bugs**: Fix interface glitches and responsiveness
+- **Documentation**: Correct errors and improve clarity
 
-#### ✨ New Features:
-- **🌐 Internationalization**: Add support for multiple languages
-- **📱 Device Profiles**: Pre-configured removal lists for specific devices
-- **🔄 Backup Improvements**: Enhanced backup/restore functionality
-- **📊 Reporting**: Better logging and operation reports
+#### New Features:
+- **Internationalization**: Add support for multiple languages
+- **Device Profiles**: Pre-configured removal lists for specific devices
+- **Backup Improvements**: Enhanced backup/restore functionality
+- **Reporting**: Better logging and operation reports
 
-### 📋 Contribution Process
+### Contribution Process
 
-#### 🚀 Getting Started:
-1. **🍴 Fork** the repository
-2. **🌿 Create** a feature branch: `git checkout -b feature/amazing-feature`
-3. **💻 Make** your changes
-4. **🧪 Test** thoroughly
-5. **📝 Commit** with clear messages: `git commit -m 'Add amazing feature'`
-6. **🚀 Push** to your branch: `git push origin feature/amazing-feature`
-7. **📬 Open** a Pull Request
+#### Getting Started:
+1. **Fork** the repository
+2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
+3. **Make** your changes
+4. **Test** thoroughly
+5. **Commit** with clear messages: `git commit -m 'Add amazing feature'`
+6. **Push** to your branch: `git push origin feature/amazing-feature`
+7. **Open** a Pull Request
 
-#### 📝 Pull Request Guidelines:
+#### Pull Request Guidelines:
 ```
 Title: [Feature/Bug/Docs] Brief description
 
@@ -712,79 +713,79 @@ Screenshots (if UI changes):
 [Include before/after screenshots]
 ```
 
-### 🏆 Recognition
+### Recognition
 
-#### 👥 Contributors:
-- **🎨 UI/UX Improvements**: [Your name here]
-- **🐛 Bug Fixes**: [Your name here]  
-- **📝 Documentation**: [Your name here]
-- **🌐 Translations**: [Your name here]
+#### Contributors:
+- **UI/UX Improvements**: [Your name here]
+- **Bug Fixes**: [Your name here]  
+- **Documentation**: [Your name here]
+- **Translations**: [Your name here]
 
 Want to see your name here? Contribute to the project!
 
-## ⚠️ Disclaimer
+## Disclaimer
 
-### 🚨 IMPORTANT WARNING 🚨
+### IMPORTANT WARNING
 
 **This tool modifies system applications on your Android device. While it includes comprehensive safety features, please understand the risks:**
 
-#### ⚠️ Risk Acknowledgment:
-- **🎯 Use at your own risk** - No warranty provided
-- **💾 Always backup** your device before making changes
-- **🧪 Test thoroughly** - Start with non-critical apps
-- **🔬 Research packages** before removing unfamiliar ones
-- **📱 Device functionality** may be affected by improper use
+#### Risk Acknowledgment:
+- **Use at your own risk** - No warranty provided
+- **Always backup** your device before making changes
+- **Test thoroughly** - Start with non-critical apps
+- **Research packages** before removing unfamiliar ones
+- **Device functionality** may be affected by improper use
 
-#### 🛡️ Recommended Safe Practices:
+#### Recommended Safe Practices:
 
-1. **🔰 Start Conservative**:
+1. **Start Conservative**:
    - Begin with "Chinese Apps Only" mode
    - Remove 2-3 apps at a time initially
    - Test device functionality after each removal
 
-2. **💾 Backup Everything**:
+2. **Backup Everything**:
    - Enable automatic backups in the app
    - Create manual backups before major operations
    - Keep backups of important APK files
 
-3. **📖 Research First**:
+3. **Research First**:
    - Look up unfamiliar package names online
    - Check Android forums for package information
    - When in doubt, disable instead of uninstall
 
-4. **🧪 Test Thoroughly**:
+4. **Test Thoroughly**:
    - Verify device functionality after removals
    - Check that essential features still work
    - Keep backups until you're sure changes are stable
 
-#### 🚫 Limitation of Liability:
+#### Limitation of Liability:
 **The author and contributors are not responsible for:**
-- 📱 Device damage or malfunction
-- 💾 Data loss or corruption  
-- 🔧 Software instability
-- 📞 Loss of device functionality
-- 💸 Any consequential damages
+- Device damage or malfunction
+- Data loss or corruption  
+- Software instability
+- Loss of device functionality
+- Any consequential damages
 
-#### ✅ Your Responsibility:
+#### Your Responsibility:
 By using this tool, you acknowledge that you:
-- 📖 Have read and understood these warnings
-- 🔧 Have the technical knowledge to use ADB tools safely
-- 💾 Will create appropriate backups before making changes
-- 🧪 Will test changes incrementally
-- 📱 Accept full responsibility for any consequences
+- Have read and understood these warnings
+- Have the technical knowledge to use ADB tools safely
+- Will create appropriate backups before making changes
+- Will test changes incrementally
+- Accept full responsibility for any consequences
 
-### 🆘 If Something Goes Wrong:
+### If Something Goes Wrong:
 
-1. **🔄 Restore from Backup**: Use the app's restore function
-2. **📱 Factory Reset**: Last resort - will erase all data
-3. **🔧 Fastboot Recovery**: For advanced users with bootloader access
-4. **🏪 Professional Help**: Contact device manufacturer or repair service
+1. **Restore from Backup**: Use the app's restore function
+2. **Factory Reset**: Last resort - will erase all data
+3. **Fastboot Recovery**: For advanced users with bootloader access
+4. **Professional Help**: Contact device manufacturer or repair service
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-### 📋 MIT License Summary:
+### MIT License Summary:
 ```
 ✅ Commercial use allowed
 ✅ Modification allowed  
@@ -798,50 +799,50 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 🌟 Acknowledgments
+## Acknowledgments
 
-### 🙏 Special Thanks:
-- **🤖 Android Developer Community**: For ADB tools and comprehensive documentation
-- **🛠️ PyInstaller Team**: For making Python app distribution easy
-- **🐍 Python Community**: For the excellent standard libraries used
-- **📱 XDA Developers**: For Android debloating research and community knowledge
-- **🧪 Beta Testers**: Users who helped test and improve the application
+### Special Thanks:
+- **Android Developer Community**: For ADB tools and comprehensive documentation
+- **PyInstaller Team**: For making Python app distribution easy
+- **Python Community**: For the excellent standard libraries used
+- **XDA Developers**: For Android debloating research and community knowledge
+- **Beta Testers**: Users who helped test and improve the application
 
-### 🎯 Inspiration:
+### Inspiration:
 This project was inspired by:
-- **📱 Universal Android Debloater**: Similar concept, different implementation
-- **🔧 ADB AppControl**: GUI approach to ADB package management  
-- **🧹 Debloat Scripts**: Community scripts for removing bloatware
-- **🚀 Personal Need**: Frustration with Chinese bloatware on international devices
+- **Universal Android Debloater**: Similar concept, different implementation
+- **ADB AppControl**: GUI approach to ADB package management  
+- **Debloat Scripts**: Community scripts for removing bloatware
+- **Personal Need**: Frustration with Chinese bloatware on international devices
 
-### 🛠️ Built With:
-- **🐍 Python 3.7+**: Core programming language
-- **🖥️ Tkinter**: GUI framework (included with Python)
-- **🔧 ADB (Android Debug Bridge)**: Android device communication
-- **📦 PyInstaller**: Executable compilation
-- **❤️ Love**: For the Android community and open source
+### Built With:
+- **Python 3.7+**: Core programming language
+- **Tkinter**: GUI framework (included with Python)
+- **ADB (Android Debug Bridge)**: Android device communication
+- **PyInstaller**: Executable compilation
+- **Love**: For the Android community and open source
 
 ---
 
-## 📊 Project Statistics
+## Project Statistics
 
 ![GitHub stars](https://img.shields.io/github/stars/hammahMach1/Hammah-Android-Debloater)
 ![GitHub forks](https://img.shields.io/github/forks/hammahMach1/Hammah-Android-Debloater)
 ![GitHub issues](https://img.shields.io/github/issues/hammahMach1/Hammah-Android-Debloater)
 ![GitHub last commit](https://img.shields.io/github/last-commit/hammahMach1/Hammah-Android-Debloater)
 
-## 🔗 Quick Links
+## Quick Links
 
-- **📥 [Download Latest Release](../../releases/latest)**
-- **🐛 [Report Issues](../../issues)**
-- **💡 [Request Features](../../issues/new)**
-- **📖 [View Documentation](../../wiki)**
-- **💬 [Join Discussions](../../discussions)**
+- **[Download Latest Release](../../releases/latest)**
+- **[Report Issues](../../issues)**
+- **[Request Features](../../issues/new)**
+- **[View Documentation](../../wiki)**
+- **[Join Discussions](../../discussions)**
 
 ---
 
-**🎉 Made with ❤️ for the Android community**
+**Made with care for the Android community**
 
-*If this tool helped you reclaim your device from bloatware, consider giving it a ⭐ star on GitHub!*
+*If this tool helped you reclaim your device from bloatware, consider giving it a star on GitHub!*
 
-**🎯 Happy Debloating! 🧹**
+**Happy Debloating!**
